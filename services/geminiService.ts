@@ -30,7 +30,7 @@ export const convertRepoToMVP = async (files: FileData[]): Promise<MVPData> => {
   `;
 
   const response = await ai.models.generateContent({
-    model: 'gemini-3-pro-preview',
+    model: 'gemini-1.5-pro',
     contents: prompt,
     config: {
       responseMimeType: 'application/json',
