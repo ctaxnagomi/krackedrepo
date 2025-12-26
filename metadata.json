@@ -1,0 +1,8 @@
+{
+  "name": "KRACKEDREPO",
+  "description": "Convert incomplete or complete code packages into structured MVP showcases with tech stacks, funding integrations, and contributor management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
